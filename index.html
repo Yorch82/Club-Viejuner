@@ -10,34 +10,54 @@
     <div>
         <h2>Formulario Viejuner</h2>
         <form action="#" method="post">
-            <legend>Rellena todos los campos:</legend>
-            <label for="fname">Nombre:</label><br>
-            <input type="text" id="fname" name="fname" placeholder="pon tu nombre aqui" required><br>
-            <label for="lname">Apellidos:</label><br>
-            <input type="text" id="lname" name="lname" placeholder="apellidos aquí"><br>
-            <label for="age">Edad:</label><br>
-            <input type="number" id="age" name="age" min="60"><br>
-            <label for="gender">Sexo:</label><br>
-            <input type="radio" id="gender" name="gender" value="male">Macho<br>
-            <input type="radio" id="gender" name="gender" value="female">Hembra<br>
-            <label for="oldman">Me siento viejuner:</label><br>
-            <input type="checkbox" id="oldman" name="oldman" value="yes">Si<br>
-            <input type="checkbox" id="noOldman" name="noOldman" value="no">No<br>
-            <label for="description">Escribe algo sobre ti:</label><br>
+            <fieldset>
+                <legend>Rellena todos los campos:</legend>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="pon tu nombre aqui" required autofocus><br>
+                <label for="lname">Apellidos:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="apellidos aquí"><br>
+                <label for="age">Edad:</label><br>
+                <input type="number" id="age" name="age" min="60"><br>
+                <label for="gender">Sexo:</label><br>
+                <input type="radio" id="gender" name="gender" value="male">Macho<br>
+                <input type="radio" id="gender" name="gender" value="female">Hembra<br>
+                <label for="oldman">Me siento viejuner:</label><br>
+                <input type="checkbox" id="oldman" name="oldman" value="yes">Si<br>
+                <input type="checkbox" id="noOldman" name="noOldman" value="no">No<br>
+                <label for="description">Escribe algo sobre ti:</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <legend>Rellena todos los campos:</legend>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="pon tu nombre aqui" required autofocus><br>
+                <label for="lname">Apellidos:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="apellidos aquí"><br>
+                <label for="age">Edad:</label><br>
+                <input type="number" id="age" name="age" min="60"><br>
+                <label for="gender">Sexo:</label><br>
+                <input type="radio" id="gender" name="gender" value="male">Macho<br>
+                <input type="radio" id="gender" name="gender" value="female">Hembra<br>
+                <label for="oldman">Me siento viejuner:</label><br>
+                <input type="checkbox" id="oldman" name="oldman" value="yes">Si<br>
+                <input type="checkbox" id="noOldman" name="noOldman" value="no">No<br>
+                <label for="description">Escribe algo sobre ti:</label><br>
             <textarea name="" id="" cols="30" rows="10"></textarea>
-            
+            </fieldset>           
         </form> 
     </div>
     <div>
         <h2>Tus Circunstancias</h2>
-        <form>
-            <label for="email">Enter your email:</label>
-            <input type="email" id="email" name="email" placeholder="su mail aquí">
-
-            <label for="phone">Enter your phone number:</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="movil aquí">
-            <input type="submit" value="Submit">
-        </form> 
+        <fieldset>
+            <form>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" placeholder="su mail aquí">
+    
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="movil aquí">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </fieldset>
+         
     </div>   
            
 </body>
